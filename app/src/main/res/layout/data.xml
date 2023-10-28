@@ -14,7 +14,17 @@
 
 
 
+    <TextView
+        android:id="@+id/fzfe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="data page here"
+        android:textSize="40dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="#00ffff"
 
+        />
 
     <TextView
         android:id="@+id/email_val"
@@ -39,6 +49,18 @@
 
         />
 
+
+    <TextView
+        android:id="@+id/fzef"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="data page here"
+        android:textSize="40dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="#00ffff"
+
+        />
 
 
 
