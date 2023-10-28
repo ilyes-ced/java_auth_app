@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">log_act</string>
+
+    <string-array name="country_codes">
+        <item>+213</item>
+        <item>+91</item>
+        <item>+95</item>
+        <item>+1</item>
+    </string-array>
+
 </resources>

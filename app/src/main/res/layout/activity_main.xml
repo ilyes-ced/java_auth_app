@@ -54,6 +54,7 @@
             android:hint="Email"
             android:textColorHint="#706d7a"
             android:textColor="@color/white"
+            android:inputType="textEmailAddress"
             />
     </LinearLayout>
 

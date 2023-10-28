@@ -14,54 +14,126 @@
 
 
 
-    <TextView
-        android:id="@+id/fzfe"
+
+    <LinearLayout
+        android:id="@+id/username_container"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="data page here"
-        android:textSize="40dp"
-        android:layout_marginHorizontal="15dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
-        android:textColor="#00ffff"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/username"
+            />
 
-        />
+        <TextView
+            android:id="@+id/username_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/white"
 
-    <TextView
-        android:id="@+id/email_val"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/email_container"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="data page here"
-        android:textSize="40dp"
-        android:layout_marginHorizontal="15dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
-        android:textColor="#00ffff"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/email"
+            />
 
-        />
-    <TextView
-        android:id="@+id/password_val"
+        <TextView
+            android:id="@+id/email_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/password_container"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="data page here"
-        android:textSize="40dp"
-        android:layout_marginHorizontal="15dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
-        android:textColor="#00ffff"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/password"
+            />
 
-        />
+        <TextView
+            android:id="@+id/password_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/white"
 
+            />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/fzef"
+    <LinearLayout
+        android:id="@+id/phone_container"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="data page here"
-        android:textSize="40dp"
-        android:layout_marginHorizontal="15dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
-        android:textColor="#00ffff"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/phone"
+            />
 
-        />
+        <TextView
+            android:id="@+id/code_val"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/number_val"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/white"
 
+            />
+    </LinearLayout>
 
 
 </LinearLayout>
