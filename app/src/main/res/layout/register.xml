@@ -137,13 +137,13 @@
             android:src="@drawable/phone"
             />
 
-        <Spinner
+
+        <androidx.appcompat.widget.AppCompatSpinner
             android:id="@+id/phone_num_spinner"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textColor="#ff00ff"
-            
-
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:textColorHint="#FF00f0"
             />
 
         <EditText
